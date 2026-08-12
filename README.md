@@ -2,7 +2,7 @@
 
 Aplicação web desenvolvida em **React** e **Bootstrap** que apresenta informações turísticas, históricas e a localização geográfica da cidade de Joinville (SC), além de um formulário de contato dinâmico.
 
-👉 **Acesse o site hospedado no Netlify aqui:**
+👉 **Acesse o site hospedado no Netlify aqui:** https://aplicacao-em-react.netlify.app/
 
 ---
 
