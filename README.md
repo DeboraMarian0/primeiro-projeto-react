@@ -6,7 +6,7 @@ Aplicação web desenvolvida em **React** e **Bootstrap** que apresenta informa�
 
 ---
 
-## 📌 Funcionalidades e Componentes
+## Funcionalidades e Componentes
 
 ### 📄 Página Inicial (`/`)
 - **Header (`Header.jsx`)**: Barra de navegação responsiva com logo e links rotados via React Router.
