@@ -1,29 +1,70 @@
-# Minha Cidade - Joinville / SC
+# Getting Started with Create React App
 
-Aplicação web desenvolvida em **React** e **Bootstrap** que apresenta informações turísticas, históricas e a localização geográfica da cidade de Joinville (SC), além de um formulário de contato dinâmico.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-👉 **Acesse o site hospedado no Netlify aqui:**
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 📌 Funcionalidades e Componentes
+### `npm start`
 
-### 📄 Página Inicial (`/`)
-- **Header (`Header.jsx`)**: Barra de navegação responsiva com logo e links rotados via React Router.
-- **Banner (`Banner.jsx`)**: Seção principal de destaque com mensagem de boas-vindas.
-- **História (`Historia.jsx`)**: Contexto histórico sobre o casamento da Princesa Dona Francisca com o Príncipe de Joinville (1843) e a chegada dos imigrantes na Colônia Dona Francisca em 1851.
-- **Turismo (`Turismo.jsx`)**: Exibição das atrações turísticas em formato de cards utilizando o sistema de grid do Bootstrap:
-  - 📍 **Mirante de Joinville**: Vista panorâmica da cidade.
-  - 📍 **Museu Nacional de Imigração e Colonização**: História da imigração e artefatos históricos.
-  - 📍 **Parque Zoobotânico**: Área verde para passeios em família.
-  - 📍 **Rua das Palmeiras**: Alameda histórica e ponto turístico tradicional.
-- **Localização (`Localizacao.jsx`)**: Apresentação geográfica do município e mapa interativo integrado via **Google Maps (iframe)**.
-- **Footer (`Footer.jsx`)**: Rodapé informativo com dados de direitos autorais.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### ✉️ Página de Contato (`/contato`)
-- **Contato (`Contato.jsx`)**: Formulário com gerenciamento de estado (`useState`) para captura de Nome, E-mail, Assunto e Mensagem.
-- **EnviaContato (`EnviaContato.jsx`)**: Componente que recebe os dados submetidos como *props* e exibe um feedback visual estilizado dos dados enviados.
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
