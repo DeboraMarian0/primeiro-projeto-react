@@ -3,6 +3,13 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* O elemento main se expande para ocupar todo o espaço vago, empurrando o footer para o final */
@@ -23,21 +30,14 @@ main {
   display: flex;         
   align-items: center;   
   gap: 15px;            
-  
-  
+
 }
 
 .App-logo {
   height: 50px;
   width: auto;
   max-width: 100%;
-  margin-left: 70px;
-}
-
-/* Adiciona espaçamento nas bordas da barra preta */
-.navbar {
-  padding-left: 40px !important;
-  padding-right: 40px !important;
+  
 }
 
 /* Afasta os links "Página Inicial" e "Contato" entre si */
@@ -98,7 +98,7 @@ main {
 }
 
 .container p {
-  font-size: 14px;
+  font-size: 16px;
   color: #666;
 }
 

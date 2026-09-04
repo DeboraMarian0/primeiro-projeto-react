@@ -32,72 +32,72 @@ function Contato() {
   };
 
   return (
-    <>
+    <div className="container">
       <Header />
-      <main className="container my-4">
-        <div className="container-form bg-light shadow-sm">
-          <h1>Contato</h1>
 
-          <form className="contact-form" onSubmit={funcSubmitForm}>
-            {' '}
-            {/* O evento onSubmit do formulário é vinculado à função funcSubmitForm, que é chamada quando o usuário envia o formulário. */}
-            <label>Nome:</label>
-            <input
-              type="text"
-              name="nome"
-              required
-              className="form-control"
-              value={formDados.nome}
-              onChange={funcDadosForm}
-            />{' '}
-            {/* Campo de entrada para o nome do usuário, vinculado ao estado formDados.nome. 
-                  O evento onChange chama a função funcDadosForm para atualizar o estado conforme o usuário digita. */}
-            <label>Email:</label>
-            <input
-              type="email"
-              name="email"
-              required
-              className="form-control"
-              value={formDados.email}
-              onChange={funcDadosForm}
-            />
-            <label>Assunto:</label>
-            <input
-              type="text"
-              name="assunto"
-              required
-              className="form-control"
-              value={formDados.assunto}
-              onChange={funcDadosForm}
-            />
-            <label>Mensagem:</label>
-            <textarea
-              name="mensagem"
-              rows="4"
-              required
-              className="form-control"
-              value={formDados.mensagem}
-              onChange={funcDadosForm}
-            />
-            <button type="submit" className="btn btn-danger">
-              Enviar
-            </button>
-            <br></br>
-          </form>
+      <div className="container-form bg-light shadow-sm">
+        <h1>Contato</h1>
 
-          {dadosEnviados && ( // Verifica se dadosEnviados não é null antes de renderizar o componente EnviaContato.
-            // Se dadosEnviados tiver um valor (ou seja, o formulário foi enviado), o componente EnviaContato será renderizado, exibindo os dados enviados.
-            <EnviaContato
-              nome={dadosEnviados.nome}
-              email={dadosEnviados.email}
-              assunto={dadosEnviados.assunto}
-              mensagem={dadosEnviados.mensagem}
-            />
-          )}
-        </div>
-      </main>
-      <Footer />
-    </>
+        <form className="contact-form" onSubmit={funcSubmitForm}>
+          {' '}
+          {/* O evento onSubmit do formulário é vinculado à função funcSubmitForm, que é chamada quando o usuário envia o formulário. */}
+          <label>Nome:</label>
+          <input
+            type="text"
+            name="nome"
+            required
+            className="form-control"
+            value={formDados.nome}
+            onChange={funcDadosForm}
+          />{' '}
+          {/* Campo de entrada para o nome do usuário, vinculado ao estado formDados.nome. 
+                    O evento onChange chama a função funcDadosForm para atualizar o estado conforme o usuário digita. */}
+          <label>Email:</label>
+          <input
+            type="email"
+            name="email"
+            required
+            className="form-control"
+            value={formDados.email}
+            onChange={funcDadosForm}
+          />
+          <label>Assunto:</label>
+          <input
+            type="text"
+            name="assunto"
+            required
+            className="form-control"
+            value={formDados.assunto}
+            onChange={funcDadosForm}
+          />
+          <label>Mensagem:</label>
+          <textarea
+            name="mensagem"
+            rows="4"
+            required
+            className="form-control"
+            value={formDados.mensagem}
+            onChange={funcDadosForm}
+          />
+          <button type="submit" className="btn btn-danger">
+            Enviar
+          </button>
+          <br></br>
+        </form>
+
+        {dadosEnviados && ( // Verifica se dadosEnviados não é null antes de renderizar o componente EnviaContato.
+          // Se dadosEnviados tiver um valor (ou seja, o formulário foi enviado), o componente EnviaContato será renderizado, exibindo os dados enviados.
+          <EnviaContato
+            nome={dadosEnviados.nome}
+            email={dadosEnviados.email}
+            assunto={dadosEnviados.assunto}
+            mensagem={dadosEnviados.mensagem}
+          />
+        )}
+
+        <Footer />
+      </div>
+    </div>
   );
 }
 

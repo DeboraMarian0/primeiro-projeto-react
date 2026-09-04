@@ -12,16 +12,16 @@ function App() {
 
   return (
     <>
-      <Header />
-      <Banner />
+      <div className="container">
+        <Header />
+        <Banner />
 
-      <main className="container">
         <Historia />
         <Turismo />
         <Localizacao />
-      </main>
 
-      <Footer />
+        <Footer />
+      </div>
     </>
   );
 }
